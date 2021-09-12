@@ -5,7 +5,6 @@ import { Link } from "react-router-dom"
 export const Home = () => {
     return (
         <>
-        
         <NavBar />
         <div className="container">
             <div className="jumbotron">
@@ -17,9 +16,9 @@ export const Home = () => {
                     Acessar o DashBoard
                 </Link>
            </div>
-        </div>
-        <Footer />
+           <p className="text-dev">App desenvolvido por <a href="https://github.com/gtrodrigues04" target="_blank" rel="noreferrer">Guilherme Teixeira</a></p>
+          </div>
         
-        </>
+    </>
     )
 }

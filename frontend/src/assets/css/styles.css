@@ -30,3 +30,9 @@ html, body {
 .text-primary {
     color: var(--color-primary) !important;
 }
+
+.text-dev {
+    color: #000;
+    position:absolute;
+    bottom:0;
+}
